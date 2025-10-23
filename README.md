@@ -11,5 +11,11 @@ Rotating incompressible Navier-Stokes equations with Boussinesq approximation ar
 
 where $$h$$ is the depth/height of the keel and $$\sigma$$ is the width of the keel
 
-- 
+- The term $fu_0$ is added to the $y$-momentum equation to represent steady background forcing, with $$f$$ being the local Coriolis parameter ($$f$$-plane approximation) and $$u_0$$ being the velocity of the fluid relative to the ice keel.
+
+- Initial buoyancy profile is two layers with a mixed layer over the topography ("keel") separated from the weakly stratified interior by a strong pycnocline:
+
+  $$b_0(z) = \frac{1}{2} \left(\Delta b - {N_0}^2\left(-H-z_0-z \right) \right)\left(1-\tanh{\left(\frac{-H-z_0-z}{\mu}\right) }\right)$$
+
+where $$H$$ is the domain depth, $$N_0$$ is the buoyancy frequency in the weakly stratified interior, $$\Delta b$$ is the buoyancy jump across the pycnocline, and $$\mu$$ is the pycnocline width.
   
