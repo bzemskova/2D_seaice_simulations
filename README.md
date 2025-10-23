@@ -33,6 +33,16 @@ where $$H$$ is the domain depth, $$N_0$$ is the buoyancy frequency in the weakly
 
 - For all simulations, we set $u_0=0.1$ m/s and width of the Versoria-shaped obstacle (i.e., ice keel) to be $\sigma=40$ m (approximately matching a sinusoidal topography to a Versoria-shaped topography, $k_0 = \pi/2\sigma$).
 
-- compute all other dimensional parameters using the non-dimensional parameter values as:
+- Compute all other dimensional parameters using the nondimensional parameter values as:
 
-  $$ N_0 = \frac{u_0 k_0}{\chi}, \qquad \Delta b = \Ri k_0 u_0^2, \qquad h_0 = \frac{\pi \zeta}{k_0}, \qquad \rm{and} \quad z_0 = -\eta h_0. $$
+  $$N_0 = \frac{u_0 k_0}{\chi}, \qquad \Delta b = \rm{Ri} k_0 u_0^2, \qquad h_0 = \frac{\pi \zeta}{k_0}, \qquad \rm{and} \quad z_0 = -\eta h_0.$$
+
+  
+### Specific simulations
+
+- "code" folder: code scripts to set up and run Oceananigans simulations (.jl files) and Jupyter Notebooks for analysis (.ipynb) for each of the six performed numerical simulations
+
+- nondimensional parameters for each of the six performed numerical simulations (each "cluster"):
+
+&emsp; &emsp; &emsp; * cluster 0: $$\chi=0.52, \quad J = 0.21, \quad \zeta = 0.033, \quad \eta = 55, \quad \rm{Ri} = 3.6$$
+
