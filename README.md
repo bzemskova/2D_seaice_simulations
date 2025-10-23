@@ -40,7 +40,9 @@ where $$H$$ is the domain depth, $$N_0$$ is the buoyancy frequency in the weakly
   
 ### Specific simulations
 
-- "code" folder: code scripts to set up and run Oceananigans simulations (.jl files) and Jupyter Notebooks for analysis (.ipynb) for each of the six performed numerical simulations
+- "code" folder: code scripts to set up and run Oceananigans simulations (.jl files) for each of the six performed numerical simulations
+-
+- "analysis" folder: Jupyter Notebooks for analysis (.ipynb) for each of the six performed numerical simulations
 
 - nondimensional parameters for each of the six performed numerical simulations (each "cluster"):
 
