@@ -33,4 +33,6 @@ where $$H$$ is the domain depth, $$N_0$$ is the buoyancy frequency in the weakly
 
 - For all simulations, we set $u_0=0.1$ m/s and width of the Versoria-shaped obstacle (i.e., ice keel) to be $\sigma=40$ m (approximately matching a sinusoidal topography to a Versoria-shaped topography, $k_0 = \pi/2\sigma$).
 
-- 
+- compute all other dimensional parameters using the non-dimensional parameter values as:
+
+  $$ N_0 = \frac{u_0 k_0}{\chi}, \qquad \Delta b = \Ri k_0 u_0^2, \qquad h_0 = \frac{\pi \zeta}{k_0}, \qquad \rm{and} \quad z_0 = -\eta h_0. $$
