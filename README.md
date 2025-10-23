@@ -18,4 +18,5 @@ where $$h$$ is the depth/height of the keel and $$\sigma$$ is the width of the k
   $$b_0(z) = \frac{1}{2} \left(\Delta b - {N_0}^2\left(-H-z_0-z \right) \right)\left(1-\tanh{\left(\frac{-H-z_0-z}{\mu}\right) }\right)$$
 
 where $$H$$ is the domain depth, $$N_0$$ is the buoyancy frequency in the weakly stratified interior, $$\Delta b$$ is the buoyancy jump across the pycnocline, and $$\mu$$ is the pycnocline width.
-  
+
+- An exponential sponge layer $e^{-z^2/2\delta^2}$ with $\delta=-H/20$ is implemented to avoid reflections off the rigid-lid surface at the top of the domain. Within the sponge layer, the flow is relaxed to the initial conditions: $$b_0(z)$$ for buoyancy, $$u_0$$ for $$u$$, and zero for $$w$$.
