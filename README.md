@@ -1,6 +1,8 @@
 # 2D_seaice_simulations
 Code repository to support manuscript titled "Nondimensional parameter regimes of Arctic ice keel-ocean flow interactions"
 
+The code is for two-dimensional idealized numerical simulations of a sea ice keel interacting with the underlying ocean approximating the Arctic Ocean conditions. Simulations are conducted in the frame of reference of the sea ice keel, such that the keel is stationary (modeled as an immersed boundary) and the flow has background velocity relative to the keel that provides forcing. 
+
 ### Model set-up
 
 Rotating incompressible Navier-Stokes equations with Boussinesq approximation are solved in a two-dimensional $$(x,z)$$ domain using Oceananigancs. In the current implementation of Oceananigans, an immersed boundary can only be specified along the bottom, and not the top boundary. However, in the Boussinesq approximation, flows are symmetric when flipped upside down if the sign of buoyancy is also reversed. We use this property to implement an "ice keel" along the bottom of the domain and reverse the sign of the initial vertical buoyancy profile.
