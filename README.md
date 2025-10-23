@@ -60,3 +60,5 @@ where $$H$$ is the domain depth, $$N_0$$ is the buoyancy frequency in the weakly
 
 &emsp; &emsp; &emsp; * cluster 5: $$\chi=0.33, \quad J = 1.6, \quad \zeta = 0.17, \quad \eta = 5.1, \quad \rm{Ri} = 130$$
 
+### Simulation data
+Raw Oceananigans output for all six simulations is published under 10.5281/zenodo.17428869
