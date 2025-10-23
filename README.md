@@ -46,3 +46,13 @@ where $$H$$ is the domain depth, $$N_0$$ is the buoyancy frequency in the weakly
 
 &emsp; &emsp; &emsp; * cluster 0: $$\chi=0.52, \quad J = 0.21, \quad \zeta = 0.033, \quad \eta = 55, \quad \rm{Ri} = 3.6$$
 
+&emsp; &emsp; &emsp; * cluster 1: $$\chi=0.30, \quad J = 1.4, \quad \zeta = 0.13, \quad \eta = 27, \quad \rm{Ri} = 470$$
+
+&emsp; &emsp; &emsp; * cluster 2: $$\chi=0.41, \quad J = 0.71, \quad \zeta = 0.093, \quad \eta = 8.4, \quad \rm{Ri} = 29$$
+
+&emsp; &emsp; &emsp; * cluster 3: $$\chi=0.29, \quad J = 3.3, \quad \zeta = 0.31, \quad \eta = 2.0, \quad \rm{Ri} = 500$$
+
+&emsp; &emsp; &emsp; * cluster 4: $$\chi=0.33, \quad J = 2.4, \quad \zeta = 0.25, \quad \eta = 2.6, \quad \rm{Ri} = 290$$
+
+&emsp; &emsp; &emsp; * cluster 5: $$\chi=0.33, \quad J = 1.6, \quad \zeta = 0.17, \quad \eta = 5.1, \quad \rm{Ri} = 130$$
+
