@@ -22,3 +22,13 @@ where $$h$$ is the depth/height of the keel and $$\sigma$$ is the width of the k
 where $$H$$ is the domain depth, $$N_0$$ is the buoyancy frequency in the weakly stratified interior, $$\Delta b$$ is the buoyancy jump across the pycnocline, and $$\mu$$ is the pycnocline width.
 
 - An exponential sponge layer $e^{-z^2/2\delta^2}$ with $\delta=-H/20$ is implemented to avoid reflections off the rigid-lid surface at the top of the domain. Within the sponge layer, the flow is relaxed to the initial conditions: $$b_0(z)$$ for buoyancy, $$u_0$$ for $$u$$, and zero for $$w$$.
+
+### Nondimensional parameters
+
+- This problem is characterized by five nondimensional parameters:
+
+  $$\chi = \frac{u_{0} k_{0}}{N_0}, \qquad J = \frac{N_0 h_{0}}{u_{0}}, \qquad \zeta = \frac{h_{0} k_{0}}{\pi}, \qquad \eta = \frac{z_{0}}{h_{0}}, \qquad \rm{Ri} = \frac{\Delta b}{k_{0} u_{0}^{2}}$$
+
+  where $$u_0$$ is the background forcing velocity magnitude, $$L = 2\pi/k_0$$ is the width of the keel (for a sinusoidal shape, i.e., $$k_0$$ is the wavenumber), $$N_0$$ is the buoyancy frequency in the stratified interior below the mixed layer, $$h_0$$ is the keel depth, $$z_0$$ is the pycnocline depth, and $$\Delta b$$ is the buoyancy jump across the pycnocline.
+
+
