@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1081958003.svg)](https://doi.org/10.5281/zenodo.17428924)
+
 # 2D_seaice_simulations
 Code repository to support manuscript titled "Nondimensional parameter regimes of Arctic ice keel-ocean flow interactions"
 
