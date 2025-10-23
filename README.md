@@ -31,4 +31,6 @@ where $$H$$ is the domain depth, $$N_0$$ is the buoyancy frequency in the weakly
 
   where $$u_0$$ is the background forcing velocity magnitude, $$L = 2\pi/k_0$$ is the width of the keel (for a sinusoidal shape, i.e., $$k_0$$ is the wavenumber), $$N_0$$ is the buoyancy frequency in the stratified interior below the mixed layer, $$h_0$$ is the keel depth, $$z_0$$ is the pycnocline depth, and $$\Delta b$$ is the buoyancy jump across the pycnocline.
 
+- For all simulations, we set $u_0=0.1$ m/s and width of the Versoria-shaped obstacle (i.e., ice keel) to be $\sigma=40$ m (approximately matching a sinusoidal topography to a Versoria-shaped topography, $k_0 = \pi/2\sigma$).
 
+- 
