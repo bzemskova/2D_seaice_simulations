@@ -62,5 +62,14 @@ where $$H$$ is the domain depth, $$N_0$$ is the buoyancy frequency in the weakly
 
 &emsp; &emsp; &emsp; * cluster 5: $$\chi=0.33, \quad J = 1.6, \quad \zeta = 0.17, \quad \eta = 5.1, \quad \rm{Ri} = 130$$
 
-### Simulation data
-Raw Oceananigans output for all six simulations is published under 10.5281/zenodo.17428869
+### Simulation data in "data" folder
+
+- for each simulation: 
+
+&emsp; &emsp; &emsp; * last timestep data for velocity fields $u$ and $w$ and buoyancy field $b$ as .npz files
+
+&emsp; &emsp; &emsp; * grid and dimensional parameters as .npz files (see README file in "data" folder)
+
+- for clusters 3, 4, 5:
+
+&emsp; &emsp; &emsp; * timeseries for velocity fields $u$ and $w$ and buoyancy field $b$ as zarr files
