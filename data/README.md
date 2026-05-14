@@ -11,14 +11,10 @@ bh_array: location of the immersed boundary (keel/topography)
 
 Z_masked: grid masking due to ice keel/topography
 
-time_array: array of time values at each timestep
-
 Nx, Nz: number of grid points in horizontal and vertical directions
-
-Nt: number of timesteps
 
 L, H: horizontal and vertical extents of the domain
 
-zeta, eta, Ri, J, chi: nondimensional parameters for the simulation set up
+J, eta, Fr, J, chi: nondimensional parameters for the simulation set up
 
 U0, k0, h0, z0, N: dimensional parameters for the simulation set up
